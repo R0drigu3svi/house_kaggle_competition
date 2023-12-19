@@ -73,9 +73,15 @@ Além desses 3 arquivos principais, o desafio possui outros 3 sendo de teste. El
 ## Métodos de treinamento - Modelo Essemble
 
 ### 🩷 Modelo Ridge Regression
+A Ridge Regression é uma técnica de regularização que se destina a lidar com o desafio da multicolinearidade em conjuntos de dados caracterizados pela presença de muitas variáveis explicativas. Ela ocorre quando algumas variáveis independentes em um modelo de regressão linear estão fortemente correlacionadas entre si. Ele é útil para lidar com modelos que assumem uma relação linear entre as características e o alvo.
 
+- Métrica de Desempenho : RMSLE (Root Mean Squared Logarithmic Error).
+- Média do RMSE : -32,091.87
 
 ### ❤️ Modelo KNN
+O K-Nearest Neighbors (KNN) é um modelo de aprendizado supervisionado utilizado para classificação e regressão. Ele prediz a classe ou valor alvo de uma instância com base na média ou moda dos K vizinhos mais próximos no espaço de características, onde a proximidade é medida por uma métrica, como a distância euclidiana. 
+
+- Média do RMSE: -0.157 (negativo devido à configuração de greater_is_better=False)
 
 ### 🧡 Modelo Decision Tree
 
