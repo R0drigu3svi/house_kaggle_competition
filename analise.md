@@ -84,17 +84,22 @@ O K-Nearest Neighbors (KNN) é um modelo de aprendizado supervisionado utilizado
 - Média do RMSE: -0.157 (negativo devido à configuração de greater_is_better=False)
 
 ### 🧡 Modelo Decision Tree
+A Decision Tree (Árvore de Decisão) é um modelo de aprendizado de máquina que opera dividindo iterativamente os dados com base em características, criando segmentações hierárquicas que representam decisões e suas consequências. 
 
 ### 💛 Modelo SVM (Support Vector Machine)
+O Support Vector Machine é um modelo de aprendizado de máquina usado para tarefas de classificação e regressão que busca encontrar um hiperplano que melhor separa os dados em classes diferentes. 
 
 ### 💚 Modelo RandomForest
+O Random Forest (Floresta Aleatória) é um modelo que opera através da construção de múltiplas árvores de decisão durante o treinamento e, em seguida, combina suas previsões para obter uma previsão mais robusta e precisa.
 
 ### 🩵 Modelo AdaBoost
+O AdaBoost é um algoritmo de aprendizado de máquina que pertence à família de métodos de ensemble, projetado para melhorar o desempenho de modelos mais fracos ao atribuir pesos diferenciados às instâncias de dados. 
 
 ### 💙 Modelo GradientBoosting
+O Gradient Boosting é uma técnica de ensemble que constrói modelos de maneira sequencial, buscando corrigir os erros dos modelos anteriores.
 
 ### 💜 Modelo Stacking
-
+O Stacking, ou Empilhamento, é uma técnica de ensemble que combina as previsões de vários modelos base, usando um meta-modelo para realizar a predição final.
 
 ## Possíveis melhorias:
 - **Experimentação com Codificação Categórica:** explorar diferentes formas de codificação para características categóricas, incluindo outras técnicas além da codificação ordinal e one-hot.
