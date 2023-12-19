@@ -91,3 +91,7 @@ Além desses 3 arquivos principais, o desafio possui outros 3 sendo de teste. El
 
 
 ## Possíveis melhorias:
+- **Experimentação com Codificação Categórica:** explorar diferentes formas de codificação para características categóricas, incluindo outras técnicas além da codificação ordinal e one-hot.
+- **Refinamento na Seleção de Características:** reduzir o número de características para evitar overfitting, melhorar a eficiência do modelo e identificar as características mais impactantes para a previsão de preços.
+- **Transformação Logarítmica do Alvo:** avaliar a transformação logarítmica do alvo (y_log) para obter uma distribuição mais normal.
+- **Otimização Adicional dos Hiperparâmetros:** realizar uma otimização mais detalhada dos hiperparâmetros para levar a um desempenho ainda mais aprimorado do modelo.
